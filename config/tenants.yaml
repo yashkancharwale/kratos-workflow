@@ -1,0 +1,19 @@
+# Tenant Configuration
+tenants:
+  default:
+    domain: company1.workflowpro.com
+    name: Company One
+    region: US
+  
+  company2:
+    domain: company2.workflowpro.com
+    name: Company Two
+    region: EU
+  
+  company3:
+    domain: company3.workflowpro.com
+    name: Company Three
+    region: ASIA
+
+# Default tenant to use in tests
+default_tenant: default
