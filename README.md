@@ -175,37 +175,6 @@ workflowpro-automation/
 └── README.md                   # This file
 ```
 
-## Features
-
-### 🎭 Page Object Model
-- Organized page object classes for maintainability
-- Base page class with common methods
-- Easy element selectors management
-
-### 🧪 Test Framework
-- Pytest for test execution
-- Fixtures for browser and page management
-- Support for test markers (smoke, regression, etc.)
-
-### 📊 Reporting
-- HTML test reports
-- Allure integration ready
-- Screenshot on failure capability
-
-### 🌐 Multi-Browser Support
-- Chromium
-- Firefox
-- WebKit
-
-### ☁️ BrowserStack Integration
-- Real device/browser testing
-- Cross-platform testing capability
-
-### 📝 Configuration Management
-- YAML-based configuration
-- Multiple environment support
-- Tenant-based testing
-
 ## Running Tests on BrowserStack (Optional)
 
 ### 1. Create BrowserStack Account
@@ -269,29 +238,6 @@ When done with testing:
 deactivate
 ```
 
-## Summary of Workflow
-
-1. ✅ Clone the repository
-2. ✅ Set up Python and create virtual environment
-3. ✅ Install dependencies
-4. ✅ Install Playwright browsers
-5. ✅ Configure YAML files (env, credentials, tenants)
-6. ✅ Run tests with pytest
-7. ✅ (Optional) Run on BrowserStack for cross-device testing
-8. ✅ View and analyze test reports
-
-## Best Practices
-
-- ✅ Always use Page Object Model pattern
-- ✅ Keep selectors in the page object classes
-- ✅ Use meaningful test names
-- ✅ Add test markers for better organization
-- ✅ Keep configuration separate from test code
-- ✅ Never commit actual credentials
-- ✅ Use explicit waits instead of sleep
-- ✅ Take screenshots on failures
-- ✅ Write descriptive assertions
-
 ## Troubleshooting
 
 ### Playwright Browsers Not Installed
@@ -308,14 +254,6 @@ Increase the `timeout` value in `env.yaml`.
 ### Screenshot Directory Not Found
 The `screenshots/` directory is created automatically on first failure.
 
-## Contributing
-
-1. Create a new branch for your feature
-2. Follow the existing code style
-3. Add tests for new features
-4. Update documentation
-5. Submit a pull request
-
 ## CI/CD Integration
 
 This framework is ready for integration with:
@@ -325,18 +263,3 @@ This framework is ready for integration with:
 - Azure DevOps
 
 Refer to `.github/workflows/` for example configurations.
-
-## Support
-
-For issues and support:
-- 📧 Email: support@workflowpro.com
-- 📖 Documentation: [WorkflowPro Docs](https://docs.workflowpro.com)
-- 🐛 Report Issues: [GitHub Issues](https://github.com/yashkancharwale/workflowpro-automation/issues)
-
-## License
-
-This project is licensed under the MIT License - see LICENSE file for details.
-
----
-
-**Happy Testing! 🚀**
